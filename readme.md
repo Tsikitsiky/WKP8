@@ -1,45 +1,29 @@
 # WKP8
 
-Hello team! Here's the weekend project 8.
-
-We're going to build a hit parade.
-
-![./assets/hit-parade.jpg](./assets/hit-parade.jpg)
-
--   That's a list of songs, sorted from the most popular to the least popular.
--   When we add a new song to the hit parade, the song score is set to zero.
--   The song list is always sorted from the highest score song to the lowest.
--   We can increment the score by clicking the +1 button.
--   We wan delete a song from the list by clicking the bin icon.
--   We can filter the list, by searching for a song title
--   We can filter the list, by selecting a song style in the select.
--   When we click the _reset filters_ button, the filter form is reset, and the list comes back to normal.
--   The data will be saved on the localstorage (except when you filter data)
-
-### Tips :
-
--   Focus on the features first, and if you have some time left, try to replicate this design.
--   Start by choosing the song data structure, and create a few of them in the code.
--   Focus on your basic app functionality first, and then try to save the state of your app to _Local Storage_.
-
-Also, please update this readme with the answer to those questions before submitting the project.
-
 ### Student report :
 
-1. In a few sentences, explain the structure of your project.
+1. In my code I have 10 functions.
 
-2. If you had more time, what area of your project would you improve?
+ The first function is to display the songs in a list using map. 
+ 
+ The second one is handling the form submit after adding a new song into the list.
+
+ The third filter the title and the fourth filter the style.
+
+ The fifth reset the filter into the normal list.
+
+ The sixth handle the clicks whether we click the add score or the delete button.
+
+ The seventh delete a son from the list and the eighth handle add score.
+
+ The nineth initialise the list from local storage and the tenth update the local storage.
+
+2. If I had more time I would improve the way I sorted the list everytime there is an update and also the filter, maybe I would have search for a way to make them in one function.
 
 3. Did you learn anything new while working on this project?
 
-4. What was the most challenging part for you?
+4. The most challenging was to know where I should put the sorting, and the filter.
 
 5. Would you like a new explanation about a specific topic?
 
 6. Any other comments?
-
-Fork this project and then clone your fork to your computer.
-
-I will download everybody's fork on **_Sunday at 5pm_**.
-
-Good luck everyone! 🔥
