@@ -22,7 +22,7 @@
             <label for="artist-name">Artist name</label>
             <input 
             type="text" 
-            name="name" 
+            name="artist" 
             id="artist-name" 
             placeholder="Artist name" 
             required>
@@ -53,7 +53,7 @@
     <section class="filter-list">
         <form class="filter" action=".">
             <label for="search-song">Search a song</label>
-            <input type="text" name="searchSong" id="search-song">
+            <input type="search" name="searchSong" id="search-song" placeholder="Enter a song title...">
             <label for="search-style">Search a style</label>
             <select name="style" id="search-style">
                 <option value="pop">Pop</option>
@@ -61,10 +61,12 @@
                 <option value="salegy">Salegy</option>
                 <option value="basessa">Basessa</option>
             </select>
-            <button type="reset" aria-label="reset the filter">Reset filters</button>
+            <button class="reset-filter" type="reset" aria-label="reset the filter">Reset filters</button>
         </form>
         <table>
+            <tbody>
 
+            </tbody>
         </table>
     </section>
 </body>
