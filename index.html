@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WKP-8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h2>Hit Parade</h2>
+        </header>
+        <form class="input" action=".">
+            <label for="title">Song title</label> 
+            <input 
+            type="text" 
+            name="title" 
+            id="title" 
+            placeholder="Title" 
+            required>
+            <label for="artist-name">Artist name</label>
+            <input 
+            type="text" 
+            name="name" 
+            id="artist-name" 
+            placeholder="Artist name" 
+            required>
+            <label for="song-style">Song-style</label>
+            <select name="style" id="song-style">
+                <option value="pop">Pop</option>
+                <option value="r&b">R&B</option>
+                <option value="salegy">Salegy</option>
+                <option value="basessa">Basessa</option>
+            </select>
+            <label for="song-length">Song length</label>
+            <input 
+            type="number" 
+            name="length" 
+            id="song-length" 
+            placeholder="Length" 
+            required>
+            <label for="picture">Artist picture</label>
+            <input 
+            type="url" 
+            name="picture" 
+            id="picture" 
+            placeholder="url of an artist pic" 
+            required>
+            <button type="submit" aria-label="Add the song in the list">Add</button>
+        </form>
+    </section>
+    <section class="filter-list">
+        <form class="filter" action=".">
+            <label for="search-song">Search a song</label>
+            <input type="text" name="searchSong" id="search-song">
+            <label for="search-style">Search a style</label>
+            <select name="style" id="search-style">
+                <option value="pop">Pop</option>
+                <option value="r&b">R&B</option>
+                <option value="salegy">Salegy</option>
+                <option value="basessa">Basessa</option>
+            </select>
+            <button type="reset" aria-label="reset the filter">Reset filters</button>
+        </form>
+        <table>
+
+        </table>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
