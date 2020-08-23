@@ -35,7 +35,7 @@ const displaySongs = () => {
             <td><img src=${song.picture} alt="${song.artist}"></td>
             <td><h4>${song.title}</h4><br>${song.style}</td>
             <td><h4>${song.artist}</h4><br>${song.length}mn</td>
-            <td>${song.score}</td>   
+            <td>SCORE:${song.score}</td>   
             <td>
                 <button class="increment" value="${song.id}" area-label="add score">+1</button>
             </td>

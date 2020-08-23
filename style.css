@@ -3,12 +3,16 @@ body {
     grid-template-columns: 150px 1fr;
     column-gap: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .input {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
 }
 
 .filter {
@@ -18,7 +22,9 @@ body {
 }
 
 tbody {
-	display: grid;
+    display: grid;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 
 td {
@@ -36,4 +42,21 @@ tr {
 	padding: 0 2rem;
 }
 
+button {
+    background-color: #0083c3;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
 
+.delete {
+    background-color: #ffffff;
+}
+
+.reset-filter {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: #0083c3 1px solid;
+    color: #0083c3;
+    text-transform: uppercase;
+}
